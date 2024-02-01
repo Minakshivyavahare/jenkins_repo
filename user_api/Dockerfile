@@ -1,6 +1,6 @@
 FROM node:latest
-COPY . /app
 WORKDIR /app
+COPY . /app
 RUN npm install
 EXPOSE 4000
 CMD ["node","index.js"]
